@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 import "./App.css";
 import HomeScreen from "./Container/HomeScreen";
-import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Login from "./Container/Login";
 import { auth } from "./firebase.js";
 import { useDispatch } from "react-redux";
